@@ -30,7 +30,7 @@ Generation of PPC assembly code.
 
 Output example for the programme 3 described in the Testing module.
 
-<code>
+```
   .file   "petitML.pml"
    .section        ".text"
    .align 2
@@ -101,5 +101,4 @@ petitML_entry:
    .size  petitML_entry,.-petitML_entry
    .ident  "Super petit Ml compiler"
    .section        .note.GNU-stack,"",@progbits
-
-</code>
+```
