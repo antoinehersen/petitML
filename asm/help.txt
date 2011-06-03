@@ -1,0 +1,18 @@
+Word are 32 bits
+
+blr      ; unconditional branch to lr
+bl	graph_demo_init	; branch to label
+li	r3,4	; load immediate
+
+ ?? lmw r30,-8(r1) ; load from memmory
+stw	r5,sum(rtoc)	*store the contents of r5 (i.e. 30)into the memory location
+lwz r2,120(r30)
+
+mflr r0		; save return address ???
+mtlr r0     ; reload return adress ???
+
+mr r30,r1 ; move register
+
+
+
+stwu	r3,-4(sp) ; preincrement sp
